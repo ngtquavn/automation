@@ -1,9 +1,7 @@
 agentd:
-  host: "0.0.0.0"
-  port: 8888
   WorkingDir: /opt/centertower/Agentd/
-  IsDebugEnable: true
   PathFileLog: "/opt/centertower/agentd.log"
+  ScriptPath: "/opt/centertower/Scripts/"
   #PathFileLog: ""
-  RetryConnectTime: 10
+  RetryConnectTime: 30
   PathToCACertFile: /opt/centertower/Agentd/ca.crt
