@@ -1,7 +1,0 @@
-agentd:
-  WorkingDir: /opt/centertower/Agentd/
-  PathFileLog: "/opt/centertower/agentd.log"
-  ScriptPath: "/opt/centertower/Scripts/"
-  #PathFileLog: ""
-  RetryConnectTime: 30
-  PathToCACertFile: /opt/centertower/Agentd/ca.crt
